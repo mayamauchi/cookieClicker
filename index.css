@@ -1,0 +1,150 @@
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display:flex;
+    min-height:100vh;
+}
+
+.container-left {
+    display:flex;
+    width: 50vw;
+    background-color: rgba(115, 175, 210, 0.357);
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.container-right {
+    display:flex;
+    width: 50vw;
+    background-color: rgba(115, 175, 210, 0.357);
+    /* margin: 20px; */
+    flex-direction:column;
+    align-items:center;
+}
+
+/* h1.container-left {
+    color:blue;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .count {
+    color:blue;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container-right-header {
+    /* position:relative; */
+    padding-top: 20px;
+    font-size: 30px;
+    color:rgb(1, 40, 63);
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right-table {
+    margin: 20px;
+    width: 40vw;
+    border: 1px solid rgb(31, 113, 160);
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: column;
+    height: vh;
+    background-color:rgb(115, 175, 210)
+}
+
+#coffee {
+    display:flex;
+    height: 200px;
+    width: 200px;
+}
+
+.producer {
+    display:flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(31, 113, 160);
+    width: 38vw;
+    color: rgb(1, 40, 63);
+}
+
+.inner-container-left {
+    display: flex;
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(1, 40, 63)
+}
+
+.flex-child-element {
+    padding-right: 5px;
+    color: rgb(1, 40, 63)
+}
+
+#flex-child-element {
+    flex: 1;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    
+}
+  
+#flex-child-element:first-child {
+    margin-right: 20px;
+    color: rgb(1, 40, 63)
+  }
+
+
+.producer-column {
+    display:flex;
+    justify-content: space-between;
+}
+
+.inner-column {
+    display:flex;
+    flex-direction:column;
+}
+
+button {
+    margin-top: 8px;
+    border: 1px solid rgb(31, 113, 160);
+    width: 60px;
+    height: 30px;
+    background-color: rgba(31, 113, 160, 0.555);
+    color: white;
+}
+
+.counter {
+    display: flex;
+    padding-right: 5px;
+}
+
+.coffeesecond {
+    display:flex;
+}
+
+.inner-container-left-bottom {
+    display: flex;
+    color: rgb(1, 40, 63)
+}
+
+#cps {
+    padding-right: 5px;
+}
+
+.producer-title {
+    font-size: 20px;
+}
+
+.inner-column-right {
+    font-size: 16px;
+    
+}

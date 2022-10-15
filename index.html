@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" defer src="index.js"></script>
+    <title>My Cookie Clicker</title>
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <div class="container-left">
+          <div class="inner-container-left">
+            <div class="flex-child-element">Coffee:</div>
+            <div id="count-flex-child-element">0</div>
+          </div>
+          <div class="inner-container-left-bottom">
+            <div id="cps">0</div><div class="coffeesecond">coffee/second</div>
+          </div>
+          <input type ="image" id="coffee" src="coffee.png"/>
+        </div>
+
+        <div class="container-right">
+          <div class="container-right-header">Coffee Producer</div>
+          <div class="container-right-table" id="producer_container" >
+
+           <div class="producer">
+                <div class="inner-column">
+                  <div class="producer-title">Espresso</div>
+                  <button type="button" id="buy_espresso">Buy</button>
+                </div>
+                <div class="inner-column-right">
+                  <div class="qtyE">Quantity: <span id="espressoQuantity">0</span></div>
+                  <div class="secE">Coffee/second: <span id="espressoSec">1</span></div>
+                  <div class="costE">Cost: <span id="espressoCost">10 </span><span>coffee</span></div>
+                </div>
+            </div>
+            <div class="producer">
+                <div class="inner-column">
+                  <div class="producer-title">Cappuccino</div>
+                  <button type="button" id="buy_cappuccino">Buy</button>
+                </div>
+                <div class="inner-column">
+                  <div class="qtyC">Quantity: <span id="cappuccinoQuantity">0</span></div>
+                  <div class="secC">Coffee/second: <span id="cappuccinoSec">5</span></div>
+                  <div class="costC">Cost: <span id="cappuccinoCost">20 </span><span>coffee</span></div>
+                </div>
+            </div>
+            <div class="producer">
+                <div class="inner-column">
+                  <div class="producer-title">Drip Coffee</div>
+                  <button type="button" id="buy_drip_coffee">Buy</button>
+                </div>
+                <div class="inner-column">
+                  <div class="qtyD">Quantity: <span id="dripCoffeeQuantity">0</span></div>
+                  <div class="secD">Coffee/second: <span id="dripCoffeeSec">10</span></div>
+                  <div class="costD">Cost: <span id="dripCoffeeCost">30 </span><span>coffee</span></div>
+                </div>
+            </div>
+            <div class="producer">
+              <div class="inner-column">
+                <div class="producer-title">Ice Coffee</div>
+                <button type="button" id="buy_ice_coffee">Buy</button>
+              </div>
+              <div class="inner-column">
+                <div class="qtyI">Quantity: <span id="iceCoffeeQuantity">0</span></div>
+                <div class="secI">Coffee/second: <span id="iceCoffeeSec">15</span></div>
+                <div class="costI">Cost: <span id="iceCoffeeCost">40 </span><span>coffee</span></div>
+              </div>
+          </div>
+          <div class="producer">
+            <div class="inner-column">
+              <div class="producer-title">Latte</div>
+              <button type="button" id="buy_latte">Buy</button>
+            </div>
+            <div class="inner-column">
+              <div class="qtyL">Quantity: <span id="latteQuantity">0</span></div>
+              <div class="secL">Coffee/second: <span id="latteSec">20</span></div>
+              <div class="costL">Cost: <span id="latteCost">50 </span><span>coffee</span></div>
+            </div>
+        </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>
